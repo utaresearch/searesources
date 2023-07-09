@@ -1,0 +1,14 @@
+## n= 80
+##
+## node), split, n, deviance, yval
+## * denotes terminal node
+##
+## 1) root 80 91652990000 195012.5
+## 2) System1HeatingSource=DX Coils 56 19669980000 178517.9
+## 4) SupplyFans=Forward Curved Centrifugal w/ Inlet Vanes 32 1933969000 169531.2 *
+## 5) SupplyFans=Two-Speed,Variable 24 11706000000 190500.0
+## 10) HeaterFuel=Gas 12 2544917000 175583.3 *
+## 11) HeaterFuel=Electricity 12 3820917000 205416.7 *
+## 3) System1HeatingSource=Electric Resistance 24 21196000000 233500.0
+## 6) HeaterFuel=Gas 12 4450250000 212250.0 *
+## 7) HeaterFuel=Electricity 12 5908250000 254750.0 *
