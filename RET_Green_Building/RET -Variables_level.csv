@@ -12,7 +12,7 @@ variable,description,type,values
 11,Glass Type - Thickness,Numerical-Continuous,"0.125,0.25"
 12,Glass Type - Spacing,Numerical-Continuous,"0.25,0.5,0,0.333"
 13,Glass Type - Emissivity,Categorical,"High,Low"
-14,Frame Type,Categorical,"Fiberglass_Fixed_Mlt spacer,Wood_Fixed Mlt Spacer,Alum w/ Brk_ Fixed_Mtl Spacer,Reinf'd Vinyl_ Fixed_Mtl Spacer "
+14,Frame Type,Categorical,"Fiberglass_Fixed_Mlt spacer,Wood_Fixed Mlt Spacer,Alum w/ Brk_ Fixed_Mtl Spacer,Reinf'd Vinyl_ Fixed_Mtl Spacer"
 15,System 1: Heating Source,Categorical,"Electric Resistance,DX Coils"
 16,System 1: System Type,Categorical,"Split System Single Zone,Packaged VVT"
 17,Supply Fans,Categorical,"Variable,Two-Speed,Forward Curved Centrifugal w/ Inlet Vanes"
