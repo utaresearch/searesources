@@ -1,0 +1,23 @@
+name: Push to cPanel
+on:
+  push:
+    branches: [ main ]
+jobs:
+  deploy:
+    name: Deploy to CPANEL on master branch push
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout the files
+        uses: actions/checkout@v2
+ 
+      - name: Create Key File
+        run: |
+          echo "${{ secrets.CPANEL_PEM }}" > keyFile.pem && chmod 400 keyFile.pem
+ 
+      - name: Attempt SCP
+        run: |
+          rsync ./src/ ${{ secrets.CPANEL_USER }}@${{ secrets.GIT_DNS }}:${{ secrets.GIT_DIRECTORY }} --rsh "ssh -p 22 -i keyFile.pem -o StrictHostKeyChecking=no" --recursive --exclude= -rlgoDzvc -i --delete --executability
+
+      - name: Deploy
+        run: ssh -i keyFile.pem ${{ secrets.CPANEL_USER }}@${{ secrets.GIT_DNS }} -f "rsync -rlgoDzvci ${{ secrets.GIT_DIRECTORY }}/ ~/public_html/ --delete --executability"
