@@ -1,41 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Our Team on Erick C. Jones Jr.</title>
-    <link>/team/</link>
-    <description>Recent content in Our Team on Erick C. Jones Jr.</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/team/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Graduate Students</title>
-      <link>/team/b/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/team/b/</guid>
-      <description>Syed MufidGraduate Student, IMSE
-Shraddha VarekarGraduate Student, Computer Science
-Sanjeev JoshiGraduate Student, Computer Science</description>
-    </item>
-    
-    <item>
-      <title>PHD Students</title>
-      <link>/team/a/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/team/a/</guid>
-      <description>Dr. Shannon AbolmaaliAssistant Professor of Research, IMSE
-Raziye AghapourPhD Student, IMSE</description>
-    </item>
-    
-    <item>
-      <title>Under Graduate students</title>
-      <link>/team/c/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/team/c/</guid>
-      <description>Cecilia RomeroUndergraduate Student, IMSE</description>
-    </item>
-    
-  </channel>
-</rss>
